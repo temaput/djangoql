@@ -95,6 +95,7 @@
     djangoQL = new DjangoQL({
       completionEnabled: QLEnabled,
       introspections: 'introspect/',
+      suggestions: 'suggestions/',
       syntaxHelp: 'djangoql-syntax/',
       selector: 'textarea[name=q]',
       autoResize: true

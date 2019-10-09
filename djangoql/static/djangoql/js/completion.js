@@ -274,6 +274,7 @@
             data = JSON.parse(request.responseText);
             this.currentModel = data.current_model;
             this.models = data.models;
+            this.loadExtraSuggestions();
           } else {
             onLoadError();
           }
@@ -842,7 +843,75 @@
       } else {
         this.selected = null;
       }
-    }
+    },
+    loadExtraSuggestions: function() {
+      var suggestionsURL = this.options.suggestions;
+      var self = this;
+      var urls = Object.keys(this.models).reduce(function(urls, modelKey) {
+        var model = self.models[modelKey];
+        Object.keys(model).forEach(function(fieldKey) {
+          var field = model[fieldKey];
+          if (field && field.has_more_options) {
+            var page = field.next_options_page_number;
+            urls.push({
+              url: makeURL(modelKey, fieldKey, page),
+              modelKey: modelKey,
+              fieldKey: fieldKey
+            });
+          }
+        });
+        return urls;
+      }, []);
+      console.log(urls);
+
+      function makeURL(modelKey, fieldKey, page) {
+        return suggestionsURL + modelKey + "/" + fieldKey + "/" + page;
+        k;
+      }
+
+      function loadURL(url, onSuccess, onLoadError) {
+        var request = new XMLHttpRequest();
+        request.open("GET", url, true);
+        request.onload = function() {
+          var data;
+          if (request.status === 200) {
+            data = JSON.parse(request.responseText);
+            onSuccess(data);
+          } else {
+            onLoadError();
+          }
+        };
+        request.ontimeout = onLoadError;
+        request.onerror = onLoadError;
+        request.onprogress = function() {};
+        window.setTimeout(request.send.bind(request));
+      }
+
+      function processSuggestions(modelKey, fieldKey) {
+        return function(data) {
+          var model = self.models[modelKey];
+          var field = model[fieldKey];
+          field.has_more_options = data.has_more_options;
+          var page = (field.next_options_page_number =
+            data.next_options_page_number);
+          field.options = field.options.concat(data.options);
+          if (data.has_more_options) {
+            var url = makeURL(modelKey, fieldKey, page);
+            loadURL(url, processSuggestions(modelKey, fieldKey));
+          }
+        };
+      }
+
+      urls.forEach(function(item) {
+        loadURL(
+          item.url,
+          processSuggestions(item.modelKey, item.fieldKey),
+          function() {
+            console.error("Error loading extra suggestions from ", item.url);
+          }
+        );
+      });
+    },
 
   };
 
