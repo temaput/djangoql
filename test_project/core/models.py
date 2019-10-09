@@ -15,7 +15,7 @@ class Book(models.Model):
         3: 'Other',
     }
 
-    name = models.CharField(max_length=10)  # lol, we're minimalists
+    name = models.CharField(max_length=100)  # lol, we're minimalists
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
     genre = models.PositiveIntegerField(
         null=True,

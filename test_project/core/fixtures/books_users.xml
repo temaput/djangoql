@@ -1,0 +1,2323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="auth.user" pk="79">
+    <field name="password" type="CharField">pbkdf2_sha256$150000$vvtRAh4LDxDo$t5fRRDZGif8big6TsRoMlQmmTn66Yux/qgX0/6v26Qw=</field>
+    <field name="last_login" type="DateTimeField">2019-10-09T08:54:03.717159+00:00</field>
+    <field name="is_superuser" type="BooleanField">True</field>
+    <field name="username" type="CharField">tema</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField">putilkin@gmail.com</field>
+    <field name="is_staff" type="BooleanField">True</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T08:53:54.888579+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1415">
+    <field name="password" type="CharField">!1uUH4C1qKQwNxDwFzIxAvXcG6x9BHocdF7JosJxs</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Suzanne Collins</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.878375+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1416">
+    <field name="password" type="CharField">!Cw39cgfm53krqIsWuZZXq0AO0KQClPnp46t5lhVy</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">J.K. Rowling, Mary GrandPré</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.883583+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1417">
+    <field name="password" type="CharField">!J0Y897kboqINX3zsYFlsO3eAtdsJqunuGGJktkE5</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Stephenie Meyer</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.887932+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1418">
+    <field name="password" type="CharField">!QZXGWgIKo2XetiWMEhTYtbQPNAXstGwgiYNuOfFy</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Harper Lee</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.891930+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1419">
+    <field name="password" type="CharField">!vJSYJdgyw3kDYfNshqP9FtEBEE9xNQFn1kfmbGsR</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">F. Scott Fitzgerald</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.896420+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1420">
+    <field name="password" type="CharField">!JGIgQDSjrJsd7pBEVqURdDgty8rq43UPvQgRVdyO</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">John Green</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.901315+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1421">
+    <field name="password" type="CharField">!ri9c55tQHpF6i7oFwtBrRjhhzz490ty17NGQUygz</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">J.R.R. Tolkien</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.906598+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1422">
+    <field name="password" type="CharField">!TXydkFJc27s0lkmvPQor78Psgc6BgUZ4pfLqvcQx</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">J.D. Salinger</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.921962+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1423">
+    <field name="password" type="CharField">!CtthQNOfOVw3fTMwtpwuXJQNoWKJsFV8HwPhn1Q5</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Dan Brown</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.929764+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1424">
+    <field name="password" type="CharField">!BXef7CtfVqXMUQ05ZNmLA6pHHsoFxOdJ4RX3FvVh</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Jane Austen</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.936381+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1425">
+    <field name="password" type="CharField">!gyavfeJroFnk2iN1H8KNDONQMCzzKt6WbLHYrCe6</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Khaled Hosseini</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.941173+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1426">
+    <field name="password" type="CharField">!ROEFhds8K7T2y0L6iecDobL4HCo3sRS0yaWq5qEF</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Veronica Roth</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.962364+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1427">
+    <field name="password" type="CharField">!oB0nARcxzktpVbuWy4BG21OWaiQJKfoPRQdKnt0t</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">George Orwell, Erich Fromm, Celâl Üster</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.970276+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1428">
+    <field name="password" type="CharField">!jxiCTDHMBJRPEDBthWXvLIBe167VEVUgdDZ5kzHd</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">George Orwell</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.975080+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1429">
+    <field name="password" type="CharField">!8jV4Frip7aXlgYzN6duymxYF5220ko2dCOZcs8DK</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Anne Frank, Eleanor Roosevelt, B.M. Mooyaart-Doubleday</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.985863+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1430">
+    <field name="password" type="CharField">!PkGQpXJlfIbhS0pFCuRJQPz4KlV71I7ga4292c4T</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Stieg Larsson, Reg Keeland</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.989279+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1431">
+    <field name="password" type="CharField">!8sM8Raat8D3MHNNv7tepG3UjsS9vR9j1eTDQ6E4F</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">J.K. Rowling, Mary GrandPré, Rufus Beck</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:34.994054+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1432">
+    <field name="password" type="CharField">!AXzPd1prNTsRuo2rLlmRNnuQXMms8nNeKDY5GmqO</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Alice Sebold</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.013730+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1433">
+    <field name="password" type="CharField">!fDWxsEQ4QPPPF14ZBhz55zfKdur0Af18rG8XI6cv</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">William Golding</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.034576+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1434">
+    <field name="password" type="CharField">!SuJ9hIJQPrSgcP0Qc8YGSr3yklO3OqoUxaLeqbUF</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">William Shakespeare, Robert           Jackson</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.040732+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1435">
+    <field name="password" type="CharField">!qp0T6kBl3JRTkJPpmogEmfFKelhctz4CheB8zdDS</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Gillian Flynn</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.049632+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1436">
+    <field name="password" type="CharField">!Oec6OhCwxZCCTSFsD7WbTpHzVyjhjVm7JwWk6ybB</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Kathryn Stockett</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.055822+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1437">
+    <field name="password" type="CharField">!ZfCXufblVnpdzGNtYeeYNDOa5ReKNuI5qQITWszF</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">John Steinbeck</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.058757+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1438">
+    <field name="password" type="CharField">!gSkuq2x2UApozHA3rGWouApbY7l7Wa2Kj9jEMMXc</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Arthur Golden</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.061507+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1439">
+    <field name="password" type="CharField">!LLjUMKLyj3i3DfA1Ss4SjpinoONPhmIh6E4hycPj</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">E.L. James</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.064535+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1440">
+    <field name="password" type="CharField">!UwVShhYCakc27KtFFSMWEUxO0xMkIaRpdDlRukZj</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Paulo Coelho, Alan R. Clarke</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.069426+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1441">
+    <field name="password" type="CharField">!YkbQN7HKl9sDlLaoqhqzOzx1niGuXmWP7S2WBR4I</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Lois Lowry</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.076960+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1442">
+    <field name="password" type="CharField">!iqEJed5UBjKFn9sjoxuKwDWX6gkuX7ZW2oevAJF3</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">C.S. Lewis</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.084466+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1443">
+    <field name="password" type="CharField">!Yt0V9kJGjaswQK2aoV7Oi82HYq7LlPVHHTIMRxSY</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Audrey Niffenegger</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.087894+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1444">
+    <field name="password" type="CharField">!0heTbSNni3L5knpsTZIay5eP9RSubu1yjinhTiXU</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">George R.R. Martin</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.091151+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1445">
+    <field name="password" type="CharField">!vFjjrZUmk7WOrSUqBz7sAAArmATbPDxSfKIQ4Wfd</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Elizabeth Gilbert</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.098046+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1446">
+    <field name="password" type="CharField">!n3nYb9rsYEPLqECrHl7T6x730cILoPkS1RetudOE</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Rick Riordan</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.102479+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1447">
+    <field name="password" type="CharField">!LfTLLKgmPjhcI5iZL3NWhzIWqiKsK0dl2ZqtfTBo</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Louisa May Alcott</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.109409+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1448">
+    <field name="password" type="CharField">!3cH06FMe1oMw7D18piLYGMSfrDKu2TCyFfi1o76b</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Charlotte Brontë, Michael Mason</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.116882+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1449">
+    <field name="password" type="CharField">!go7zmjsIFWH7id4JzJKB4v63jxsUHFCfrlKC1QpD</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Nicholas Sparks</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.123003+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1450">
+    <field name="password" type="CharField">!P8k1x7Gbjj8CpckOtWVgYxxmOaoZBIhCiNRoBln0</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Yann Martel</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.125786+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1451">
+    <field name="password" type="CharField">!TyYHRJZSKs0mdUZvg7Hwg64TrEtlRFwMeZFU4zY1</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Sara Gruen</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.128910+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1452">
+    <field name="password" type="CharField">!3eGcog9imzTxhjNgloiCIBzoLnXc79xwo0CSMyHI</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Markus Zusak</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.131746+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1453">
+    <field name="password" type="CharField">!3gwM3qOsctORV3bobRFsmlDZCB891L7cxQdfcejm</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Ray Bradbury</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.136836+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1454">
+    <field name="password" type="CharField">!8rlnFMWot4OqrNwgkuDsEj5OgiIWHovg4FSEzyDV</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Shel Silverstein</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.150699+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1455">
+    <field name="password" type="CharField">!H6otoOn3ZIjJNojeplM5YVftcMep617FeC7t4WF5</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Cassandra Clare</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.153947+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1456">
+    <field name="password" type="CharField">!3NjklfCuC1EDFMEGfPQOrUD6MvdTtTBxHtHYIRjf</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Christopher Paolini</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.161173+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1457">
+    <field name="password" type="CharField">!O6F8VEE1PjK2fAq9L7S7bo2a8EEwoKX8LC8qyOPe</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Douglas Adams</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.164010+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1458">
+    <field name="password" type="CharField">!FIGzuIZyDRS60NZNR5pmlwU6GdX6FOxwYoQ203rs</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Aldous Huxley</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.168426+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1459">
+    <field name="password" type="CharField">!Svt8m7yjFQvt83igUqsNcXgoVThUcLGZzjfV9vGn</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Sue Monk Kidd</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.187312+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1460">
+    <field name="password" type="CharField">!7P8B3FzCTWmfyTgklkno5hIIllh7jJURZK4cPJrN</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Mark Twain, John Seelye, Guy Cardwell</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.190303+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1461">
+    <field name="password" type="CharField">!Z0Z013ZJghrj8dBUn58tWOzYDmpqQobqeFkPZHyD</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">E.B. White, Garth Williams, Rosemary Wells</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.194401+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1462">
+    <field name="password" type="CharField">!BAbExunjOwW5UcQMqrbvfyI8wyc1lbYyhsYLL6Ku</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Mark Haddon</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.197802+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1463">
+    <field name="password" type="CharField">!4eW5fWC86HWS69JuQd6TZr41zR11YP9hUFKXBr2w</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Paula Hawkins</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.208156+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1464">
+    <field name="password" type="CharField">!8ge5wmXQUBjF7KPgfCemjUC2gYFyeoV2pWsIuHJr</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Philip Pullman</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.220963+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1465">
+    <field name="password" type="CharField">!Rc9LZSW0sQq3EUNYObClEKayvKE12KwUcK4kafRq</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Emily Brontë, Richard J. Dunn</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.224306+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1466">
+    <field name="password" type="CharField">!byoIkCycjIrXyNnHtk51DGYEy5ERsyg5ft7Fj9zJ</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Jodi Picoult</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.230422+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1467">
+    <field name="password" type="CharField">!WXdzQo26PkEcEmutZfqmXxEhqcKUtmNMGgB1JS0R</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Kurt Vonnegut Jr.</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.239220+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1468">
+    <field name="password" type="CharField">!nVluuB0WUwqRKDfPNiQwM6DmGP08w1F5mVa74MbK</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Margaret Mitchell</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.254434+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1469">
+    <field name="password" type="CharField">!U4pSPZTr0XMu3WZNlOOlklaXlBjrvVbFeUgQ129y</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Stephen Chbosky</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.262313+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1470">
+    <field name="password" type="CharField">!oi2sa7UttVShXRacBTkEEql0PYDKfkQBp3diO6Y3</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Orson Scott Card</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.277173+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1471">
+    <field name="password" type="CharField">!Ujfn67rVFSrEeo2mzBY5Wwc9ecCA1vSfqxj6BTp0</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Mary Wollstonecraft Shelley, Percy Bysshe Shelley, Maurice Hindle</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.287615+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1472">
+    <field name="password" type="CharField">!vSQVPbtlgEGUfOwDxz8YlrSG1v7VTR1YieFPAwRl</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Stephen King</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.291651+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1473">
+    <field name="password" type="CharField">!t8gdAHGsLgGJWGrlGENZv4v1691ThySrbs0DC2QU</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Jane Austen, Tony Tanner, Ros Ballaster</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.302336+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1474">
+    <field name="password" type="CharField">!i07dfZb3qZsaWJirxC4y1p5N2aDWqQsJnbUQKIMh</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Louis Sachar, Louis Sachar</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.316452+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1475">
+    <field name="password" type="CharField">!28BAWsfxpNQgUSiCylMfxuPVfwj3vVNXpyyMZUNB</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Lauren Weisberger</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.319906+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1476">
+    <field name="password" type="CharField">!UHpITqdYyf0MAzABX3bNWtFhvIeSF0eRzZkayyf9</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Homer, Robert Fagles, E.V. Rieu, Frédéric Mugler, Bernard Knox</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.326240+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1477">
+    <field name="password" type="CharField">!al9RQT2gUknIkn3KooJlAk16pbGfDeCkCqfn4Rbp</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Antoine de Saint-Exupéry, Richard Howard, Dom Marcos Barbosa, Melina Karakosta</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.332433+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1478">
+    <field name="password" type="CharField">!bt2G2S6T6PnSjc622wZKfRZTiOHE8W3Uzjmb7hFQ</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Jeannette Walls</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.347152+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1479">
+    <field name="password" type="CharField">!LRfXsSv8DzNMYMNpnbuEGGGDi8Pt9Vzae64JCXVe</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Jon Krakauer</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.354947+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1480">
+    <field name="password" type="CharField">!kg3fTXeg88CRzbPRdD5pj9WriYaTl4BpgnV4ANQO</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Charles Dickens, Richard Maxwell, Hablot Knight Browne</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.361594+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1481">
+    <field name="password" type="CharField">!IFG2crv9Ufsm1fVI1Kfpa4OXzgziQISI56A3DKVo</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Michael Crichton</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.365062+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1482">
+    <field name="password" type="CharField">!YHyBhSIqqGiRkELtkQzvGwxYdkbxCQaZp1uVQAvV</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">John Grisham</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.375108+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1483">
+    <field name="password" type="CharField">!H78p7HihSt4dHf6c1B1URoHcU0Eg3Qh1I3HihiF7</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Elie Wiesel, Marion Wiesel</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.386707+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1484">
+    <field name="password" type="CharField">!lZHktUJXwli7VX25cPVpXO8OC5wd7u7O2UBv8kxv</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">William Goldman</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.400778+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1485">
+    <field name="password" type="CharField">!LD4LH5dplI2sGOqT8OvEcEaAw0Qh398JG4eiIatv</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">S.E. Hinton</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.414576+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1486">
+    <field name="password" type="CharField">!OWIcaBhrN2FE2yb1sCBq1o0fXVkS7nfxcuJitGrA</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">James Dashner</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.421981+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1487">
+    <field name="password" type="CharField">!mwOwsTS0wh2UGMjvSxEUtcp63Oc5ABrcUCo5xJtH</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Steven D. Levitt, Stephen J. Dubner</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.425434+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1488">
+    <field name="password" type="CharField">!vztu6GnrzYgTKyvXEQt4UftnXPn8g2W2dXOdDgoZ</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Frances Hodgson Burnett</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.432021+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1489">
+    <field name="password" type="CharField">!L5DR9NRC1bh1s4gUFuUOcu9j8gUFui6xyzi6GHRo</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Gabriel García Márquez, Gregory Rabassa</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.448349+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1490">
+    <field name="password" type="CharField">!cIh4VvHcTVuqWhtymVB2GoUx9zcmyLFYou82ArRq</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Oscar Wilde, Jeffrey Eugenides</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.454193+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1491">
+    <field name="password" type="CharField">!qfGbYkDpWYcCZVPIjOBlNfp9jpyIDdCimToU05vC</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Bram Stoker, Nina Auerbach, David J. Skal</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.464701+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1492">
+    <field name="password" type="CharField">!6CXsEOfWHNmkXCgC7pzJHVvmXVgGtG2bbd37Y585</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Barbara Kingsolver</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.485310+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="1493">
+    <field name="password" type="CharField">!NWJnUsGWO35Ef1SEq19nnbSmZXaCpslF6Wh7259u</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">David Sedaris</field>
+    <field name="first_name" type="CharField"></field>
+    <field name="last_name" type="CharField"></field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2019-10-09T09:14:35.490362+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="core.book" pk="2104">
+    <field name="name" type="CharField">The Hunger Games</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1415</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2008-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">False</field>
+    <field name="rating" type="FloatField">4.34</field>
+    <field name="price" type="DecimalField">272.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">439023483</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2105">
+    <field name="name" type="CharField">Harry Potter and the Philosopher's Stone</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1416</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1997-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.44</field>
+    <field name="price" type="DecimalField">491.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">439554934</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2106">
+    <field name="name" type="CharField">Twilight</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1417</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2005-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.57</field>
+    <field name="price" type="DecimalField">226.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">316015849</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2107">
+    <field name="name" type="CharField">To Kill a Mockingbird</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1418</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1960-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.25</field>
+    <field name="price" type="DecimalField">487.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">61120081</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2108">
+    <field name="name" type="CharField">The Great Gatsby</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1419</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1925-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.89</field>
+    <field name="price" type="DecimalField">1356.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">743273567</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2109">
+    <field name="name" type="CharField">The Fault in Our Stars</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1420</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2012-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.26</field>
+    <field name="price" type="DecimalField">226.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">525478817</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2110">
+    <field name="name" type="CharField">The Hobbit or There and Back Again</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1421</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1937-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.25</field>
+    <field name="price" type="DecimalField">969.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">618260307</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2107"></object></field>
+  </object>
+  <object model="core.book" pk="2111">
+    <field name="name" type="CharField">The Catcher in the Rye</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1422</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">1951-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.79</field>
+    <field name="price" type="DecimalField">360.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">316769177</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2112">
+    <field name="name" type="CharField">Angels &amp; Demons </field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1423</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">2000-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.85</field>
+    <field name="price" type="DecimalField">311.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">1416524797</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2113">
+    <field name="name" type="CharField">Pride and Prejudice</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1424</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">1813-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.24</field>
+    <field name="price" type="DecimalField">3455.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">679783261</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2114">
+    <field name="name" type="CharField">The Kite Runner </field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1425</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2003-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.26</field>
+    <field name="price" type="DecimalField">283.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">1594480001</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2109"></object></field>
+  </object>
+  <object model="core.book" pk="2115">
+    <field name="name" type="CharField">Divergent</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1426</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">2011-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.24</field>
+    <field name="price" type="DecimalField">210.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">62024035</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2113"></object></field>
+  </object>
+  <object model="core.book" pk="2116">
+    <field name="name" type="CharField">Nineteen Eighty-Four</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1427</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1949-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.14</field>
+    <field name="price" type="DecimalField">995.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">451524934</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2117">
+    <field name="name" type="CharField">Animal Farm: A Fairy Story</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1428</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1945-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.87</field>
+    <field name="price" type="DecimalField">896.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">452284244</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2118">
+    <field name="name" type="CharField">Het Achterhuis: Dagboekbrieven 14 juni 1942 - 1 augustus 1944</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1429</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">1947-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.1</field>
+    <field name="price" type="DecimalField">710.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">553296981</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2119">
+    <field name="name" type="CharField">Män som hatar kvinnor</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1430</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2005-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.11</field>
+    <field name="price" type="DecimalField">274.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">307269752</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2120">
+    <field name="name" type="CharField">Catching Fire</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1415</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">2009-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.3</field>
+    <field name="price" type="DecimalField">201.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">439023491</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2121">
+    <field name="name" type="CharField">Harry Potter and the Prisoner of Azkaban</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1431</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1999-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.53</field>
+    <field name="price" type="DecimalField">376.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField"><None></None></field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2122">
+    <field name="name" type="CharField"> The Fellowship of the Ring</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1421</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1954-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.34</field>
+    <field name="price" type="DecimalField">566.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">618346252</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2104"></object></field>
+  </object>
+  <object model="core.book" pk="2123">
+    <field name="name" type="CharField">Mockingjay</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1415</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">2010-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.03</field>
+    <field name="price" type="DecimalField">239.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">439023513</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2124">
+    <field name="name" type="CharField">Harry Potter and the Order of the Phoenix</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1416</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2003-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.46</field>
+    <field name="price" type="DecimalField">307.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">439358078</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2125">
+    <field name="name" type="CharField">The Lovely Bones</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1432</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2002-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.77</field>
+    <field name="price" type="DecimalField">183.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">316166685</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2126">
+    <field name="name" type="CharField">Harry Potter and the Chamber of Secrets</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1416</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1998-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.37</field>
+    <field name="price" type="DecimalField">398.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">439064864</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2127">
+    <field name="name" type="CharField">Harry Potter and the Goblet of Fire</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1416</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2000-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.53</field>
+    <field name="price" type="DecimalField">332.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">439139600</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2121"></object></field>
+  </object>
+  <object model="core.book" pk="2128">
+    <field name="name" type="CharField">Harry Potter and the Deathly Hallows</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1416</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2007-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.61</field>
+    <field name="price" type="DecimalField">263.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">545010225</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2129">
+    <field name="name" type="CharField">The Da Vinci Code</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1423</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">2003-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.79</field>
+    <field name="price" type="DecimalField">350.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">307277674</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2111"></object></field>
+  </object>
+  <object model="core.book" pk="2130">
+    <field name="name" type="CharField">Harry Potter and the Half-Blood Prince</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1416</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2005-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.54</field>
+    <field name="price" type="DecimalField">275.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">439785960</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2131">
+    <field name="name" type="CharField">Lord of the Flies </field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1433</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">1954-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.64</field>
+    <field name="price" type="DecimalField">458.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">140283331</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2132">
+    <field name="name" type="CharField">An Excellent conceited Tragedie of Romeo and Juliet</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1434</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">1595-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.73</field>
+    <field name="price" type="DecimalField">1937.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">743477111</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2133">
+    <field name="name" type="CharField">Gone Girl</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1435</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2012-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.03</field>
+    <field name="price" type="DecimalField">196.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">297859382</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2123"></object></field>
+  </object>
+  <object model="core.book" pk="2134">
+    <field name="name" type="CharField">The Help</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1436</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2009-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.45</field>
+    <field name="price" type="DecimalField">183.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">399155341</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2135">
+    <field name="name" type="CharField">Of Mice and Men </field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1437</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">1937-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.84</field>
+    <field name="price" type="DecimalField">373.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">142000671</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2136">
+    <field name="name" type="CharField">Memoirs of a Geisha</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1438</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1997-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.08</field>
+    <field name="price" type="DecimalField">220.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">739326228</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2137">
+    <field name="name" type="CharField">Fifty Shades of Grey</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1439</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">2011-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.67</field>
+    <field name="price" type="DecimalField">169.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">1612130291</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2138">
+    <field name="name" type="CharField">O Alquimista</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1440</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1988-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.82</field>
+    <field name="price" type="DecimalField">458.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">61122416</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2139">
+    <field name="name" type="CharField">The Giver</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1441</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1993-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.12</field>
+    <field name="price" type="DecimalField">192.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">385732554</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2140">
+    <field name="name" type="CharField">The Lion, the Witch and the Wardrobe</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1442</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1950-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.19</field>
+    <field name="price" type="DecimalField">474.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">60764899</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2141">
+    <field name="name" type="CharField">The Time Traveler's Wife</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1443</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2003-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.95</field>
+    <field name="price" type="DecimalField">167.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">965818675</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2142">
+    <field name="name" type="CharField">A Game of Thrones</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1444</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1996-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.45</field>
+    <field name="price" type="DecimalField">101.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">553588486</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2134"></object></field>
+  </object>
+  <object model="core.book" pk="2143">
+    <field name="name" type="CharField">Eat, pray, love: one woman's search for everything across Italy, India and Indonesia</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1445</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2006-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.51</field>
+    <field name="price" type="DecimalField">185.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">143038419</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2144">
+    <field name="name" type="CharField">The Lightning Thief</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1446</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2005-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.23</field>
+    <field name="price" type="DecimalField">159.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">786838655</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2145">
+    <field name="name" type="CharField">Little Women</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1447</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1868-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.04</field>
+    <field name="price" type="DecimalField">1707.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">451529308</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2146">
+    <field name="name" type="CharField">Jane Eyre</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1448</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1847-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.1</field>
+    <field name="price" type="DecimalField">2568.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">142437204</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2118"></object></field>
+  </object>
+  <object model="core.book" pk="2147">
+    <field name="name" type="CharField">The Notebook</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1449</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1996-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.06</field>
+    <field name="price" type="DecimalField">190.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">553816713</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2148">
+    <field name="name" type="CharField">Life of Pi</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1450</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2001-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.88</field>
+    <field name="price" type="DecimalField">264.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">770430074</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2149">
+    <field name="name" type="CharField">Water for Elephants</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1451</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2006-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.07</field>
+    <field name="price" type="DecimalField">128.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">1565125606</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2150">
+    <field name="name" type="CharField">The Book Thief</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1452</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2005-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.36</field>
+    <field name="price" type="DecimalField">251.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">375831002</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2151">
+    <field name="name" type="CharField">Fahrenheit 451</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1453</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1953-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.97</field>
+    <field name="price" type="DecimalField">507.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">307347974</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2152">
+    <field name="name" type="CharField">New Moon (Twilight, #2)</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1417</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2006-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.52</field>
+    <field name="price" type="DecimalField">194.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">316160199</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2153">
+    <field name="name" type="CharField">Where the Sidewalk Ends: The Poems and Drawings of Shel Silverstein</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1454</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1974-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.29</field>
+    <field name="price" type="DecimalField">45.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">60513039</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2154">
+    <field name="name" type="CharField">City of Bones</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1455</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">2007-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">False</field>
+    <field name="rating" type="FloatField">4.12</field>
+    <field name="price" type="DecimalField">178.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">1416914285</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2139"></object></field>
+  </object>
+  <object model="core.book" pk="2155">
+    <field name="name" type="CharField">Eclipse</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1417</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">2007-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.69</field>
+    <field name="price" type="DecimalField">185.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">316160202</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2156">
+    <field name="name" type="CharField">Eragon</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1456</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2002-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.86</field>
+    <field name="price" type="DecimalField">217.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">375826696</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2157">
+    <field name="name" type="CharField">The Hitchhiker's Guide to the Galaxy</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1457</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">1979-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.2</field>
+    <field name="price" type="DecimalField">257.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">345391802</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2158">
+    <field name="name" type="CharField">Brave New World</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1458</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1932-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.97</field>
+    <field name="price" type="DecimalField">515.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">60929871</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2151"></object></field>
+  </object>
+  <object model="core.book" pk="2159">
+    <field name="name" type="CharField">Breaking Dawn</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1417</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">2008-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.7</field>
+    <field name="price" type="DecimalField">183.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField"><None></None></field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2160">
+    <field name="name" type="CharField">The Secret Life of Bees</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1459</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">2001-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.01</field>
+    <field name="price" type="DecimalField">125.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">142001740</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2161">
+    <field name="name" type="CharField">The Adventures of Huckleberry Finn</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1460</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">1884-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.8</field>
+    <field name="price" type="DecimalField">2277.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">142437174</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2162">
+    <field name="name" type="CharField">Charlotte's Web</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1461</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">1952-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.15</field>
+    <field name="price" type="DecimalField">180.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">64410935</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2163">
+    <field name="name" type="CharField">The Curious Incident of the Dog in the Night-Time</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1462</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">2003-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.85</field>
+    <field name="price" type="DecimalField">183.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">1400032717</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2112"></object></field>
+  </object>
+  <object model="core.book" pk="2164">
+    <field name="name" type="CharField">The Girl on the Train</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1463</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2015-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.88</field>
+    <field name="price" type="DecimalField">14.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">1594633665</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2148"></object></field>
+  </object>
+  <object model="core.book" pk="2165">
+    <field name="name" type="CharField">Northern Lights</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1464</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1995-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.94</field>
+    <field name="price" type="DecimalField">287.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">679879242</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2166">
+    <field name="name" type="CharField">Wuthering Heights</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1465</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1847-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.82</field>
+    <field name="price" type="DecimalField">2498.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">393978893</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2138"></object></field>
+  </object>
+  <object model="core.book" pk="2167">
+    <field name="name" type="CharField">My Sister's Keeper</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1466</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2004-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.06</field>
+    <field name="price" type="DecimalField">125.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">743454537</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2147"></object></field>
+  </object>
+  <object model="core.book" pk="2168">
+    <field name="name" type="CharField">Slaughterhouse-Five, or The Children's Crusade: A Duty-Dance with Death </field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1467</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1969-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.06</field>
+    <field name="price" type="DecimalField">241.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">385333846</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2147"></object><object pk="2167"></object></field>
+  </object>
+  <object model="core.book" pk="2169">
+    <field name="name" type="CharField">Gone with the Wind</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1468</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1936-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.28</field>
+    <field name="price" type="DecimalField">409.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">446675539</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2170">
+    <field name="name" type="CharField">A Thousand Splendid Suns</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1425</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">2007-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.34</field>
+    <field name="price" type="DecimalField">197.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">1594489505</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2104"></object><object pk="2122"></object></field>
+  </object>
+  <object model="core.book" pk="2171">
+    <field name="name" type="CharField">The Perks of Being a Wallflower</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1469</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1999-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.21</field>
+    <field name="price" type="DecimalField">128.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">671027344</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2172">
+    <field name="name" type="CharField">Insurgent</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1426</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2012-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.07</field>
+    <field name="price" type="DecimalField">164.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">7442912</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2149"></object></field>
+  </object>
+  <object model="core.book" pk="2173">
+    <field name="name" type="CharField">Ender's Game</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1470</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">1985-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.3</field>
+    <field name="price" type="DecimalField">224.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">812550706</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2120"></object></field>
+  </object>
+  <object model="core.book" pk="2174">
+    <field name="name" type="CharField">Frankenstein; or, The Modern Prometheus</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1471</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1818-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.75</field>
+    <field name="price" type="DecimalField">2618.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">141439475</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2175">
+    <field name="name" type="CharField">The Shining</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1472</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1977-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.17</field>
+    <field name="price" type="DecimalField">289.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">450040186</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2176">
+    <field name="name" type="CharField">The Host</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1417</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2008-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.84</field>
+    <field name="price" type="DecimalField">161.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">316068047</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2135"></object></field>
+  </object>
+  <object model="core.book" pk="2177">
+    <field name="name" type="CharField">Looking for Alaska</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1420</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2005-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.09</field>
+    <field name="price" type="DecimalField">187.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">142402516</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2178">
+    <field name="name" type="CharField">Sense and Sensibility</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1473</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">1811-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.06</field>
+    <field name="price" type="DecimalField">1969.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">141439661</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2147"></object><object pk="2167"></object><object pk="2168"></object></field>
+  </object>
+  <object model="core.book" pk="2179">
+    <field name="name" type="CharField">Holes</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1474</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1998-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.93</field>
+    <field name="price" type="DecimalField">138.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">439244196</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2180">
+    <field name="name" type="CharField">The Devil Wears Prada</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1475</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">2003-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.7</field>
+    <field name="price" type="DecimalField">129.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">307275558</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2159"></object></field>
+  </object>
+  <object model="core.book" pk="2181">
+    <field name="name" type="CharField">Ὀδύσσεια</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1476</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2000-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.73</field>
+    <field name="price" type="DecimalField">1703.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">143039954</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2132"></object></field>
+  </object>
+  <object model="core.book" pk="2182">
+    <field name="name" type="CharField">Le Petit Prince</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1477</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1946-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.28</field>
+    <field name="price" type="DecimalField">1708.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">156012197</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2169"></object></field>
+  </object>
+  <object model="core.book" pk="2183">
+    <field name="name" type="CharField">The Glass Castle</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1478</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2005-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.24</field>
+    <field name="price" type="DecimalField">92.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField"><None></None></field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2113"></object><object pk="2115"></object></field>
+  </object>
+  <object model="core.book" pk="2184">
+    <field name="name" type="CharField">Into the Wild</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1479</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1996-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.94</field>
+    <field name="price" type="DecimalField">108.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">385486804</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2165"></object></field>
+  </object>
+  <object model="core.book" pk="2185">
+    <field name="name" type="CharField">A Tale of Two Cities</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1480</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1859-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.81</field>
+    <field name="price" type="DecimalField">525.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">141439602</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2186">
+    <field name="name" type="CharField">Jurassic Park</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1481</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">1990-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.96</field>
+    <field name="price" type="DecimalField">176.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField"><None></None></field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2187">
+    <field name="name" type="CharField">The Giving Tree</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1454</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1964-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.38</field>
+    <field name="price" type="DecimalField">81.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">60256656</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2188">
+    <field name="name" type="CharField">A Time to Kill</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1482</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1989-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.03</field>
+    <field name="price" type="DecimalField">158.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">385338600</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2123"></object><object pk="2133"></object></field>
+  </object>
+  <object model="core.book" pk="2189">
+    <field name="name" type="CharField">Un di Velt Hot Geshvign</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1483</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">1958-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.3</field>
+    <field name="price" type="DecimalField">109.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">374500010</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2120"></object><object pk="2173"></object></field>
+  </object>
+  <object model="core.book" pk="2190">
+    <field name="name" type="CharField">Paper Towns</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1420</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2008-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.88</field>
+    <field name="price" type="DecimalField">178.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField"><None></None></field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2148"></object><object pk="2164"></object></field>
+  </object>
+  <object model="core.book" pk="2191">
+    <field name="name" type="CharField">The Princess Bride</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1484</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">1973-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.25</field>
+    <field name="price" type="DecimalField">129.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">345418263</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2107"></object><object pk="2110"></object></field>
+  </object>
+  <object model="core.book" pk="2192">
+    <field name="name" type="CharField">The Outsiders</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1485</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">1967-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.06</field>
+    <field name="price" type="DecimalField">156.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField"><None></None></field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2147"></object><object pk="2167"></object><object pk="2168"></object><object pk="2178"></object></field>
+  </object>
+  <object model="core.book" pk="2193">
+    <field name="name" type="CharField">The Maze Runner</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1486</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2009-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.02</field>
+    <field name="price" type="DecimalField">147.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">385737947</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2194">
+    <field name="name" type="CharField">Freakonomics: A Rogue Economist Explores the Hidden Side of Everything</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1487</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2005-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.93</field>
+    <field name="price" type="DecimalField">124.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">61234001</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2179"></object></field>
+  </object>
+  <object model="core.book" pk="2195">
+    <field name="name" type="CharField">The Secret Garden</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1488</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">1911-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.12</field>
+    <field name="price" type="DecimalField">1350.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">517189607</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2139"></object><object pk="2154"></object></field>
+  </object>
+  <object model="core.book" pk="2196">
+    <field name="name" type="CharField">Cien años de soledad</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1489</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">1967-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.04</field>
+    <field name="price" type="DecimalField">555.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">60531045</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2145"></object></field>
+  </object>
+  <object model="core.book" pk="2197">
+    <field name="name" type="CharField">The Picture of Dorian Gray</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1490</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">1891-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.06</field>
+    <field name="price" type="DecimalField">2303.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">375751513</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2147"></object><object pk="2167"></object><object pk="2168"></object><object pk="2178"></object><object pk="2192"></object></field>
+  </object>
+  <object model="core.book" pk="2198">
+    <field name="name" type="CharField">Fifty Shades Freed</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1439</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">2012-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.88</field>
+    <field name="price" type="DecimalField">133.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">345803507</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2148"></object><object pk="2164"></object><object pk="2190"></object></field>
+  </object>
+  <object model="core.book" pk="2199">
+    <field name="name" type="CharField">Dracula</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1491</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">1897-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.98</field>
+    <field name="price" type="DecimalField">2207.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">393970124</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2200">
+    <field name="name" type="CharField">Flickan som lekte med elden</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1430</field>
+    <field name="genre" type="PositiveIntegerField">2</field>
+    <field name="written" type="DateTimeField">2006-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.22</field>
+    <field name="price" type="DecimalField">209.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">307269981</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"></field>
+  </object>
+  <object model="core.book" pk="2201">
+    <field name="name" type="CharField">Fifty Shades Darker</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1439</field>
+    <field name="genre" type="PositiveIntegerField">1</field>
+    <field name="written" type="DateTimeField">2011-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">3.87</field>
+    <field name="price" type="DecimalField">147.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">1612130585</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2117"></object></field>
+  </object>
+  <object model="core.book" pk="2202">
+    <field name="name" type="CharField">The Poisonwood Bible</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1492</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">1998-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">True</field>
+    <field name="rating" type="FloatField">4.02</field>
+    <field name="price" type="DecimalField">39.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">60786507</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2193"></object></field>
+  </object>
+  <object model="core.book" pk="2203">
+    <field name="name" type="CharField">Me Talk Pretty One Day</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1493</field>
+    <field name="genre" type="PositiveIntegerField">3</field>
+    <field name="written" type="DateTimeField">2000-01-01T00:00:00+00:00</field>
+    <field name="is_published" type="BooleanField">False</field>
+    <field name="rating" type="FloatField">3.97</field>
+    <field name="price" type="DecimalField">59.00</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype"><None></None></field>
+    <field name="object_id" type="PositiveIntegerField">349113912</field>
+    <field name="similar_books" rel="ManyToManyRel" to="core.book"><object pk="2151"></object><object pk="2158"></object></field>
+  </object>
+</django-objects>

@@ -15,7 +15,8 @@ admin.site.unregister(User)
 
 class BookQLSchema(DjangoQLSchema):
     suggest_options = {
-        Book: ['genre'],
+        Book: ['genre', 'name'],
+        User: ['username']
     }
 
 

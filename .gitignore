@@ -1,5 +1,6 @@
 .DS_Store
 .idea
+.vscode
 *.py[co]
 
 test_project/db.sqlite3
@@ -10,3 +11,5 @@ djangoql.egg-info
 
 node_modules
 npm-debug.log
+Pipfile.lock
+Pipfile
