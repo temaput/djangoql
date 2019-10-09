@@ -8,6 +8,7 @@ from django.forms import Media
 from django.http import HttpResponse
 from django.template.loader import render_to_string
 from django.views.generic import TemplateView
+from django.http import HttpResponseNotFound
 
 from .compat import text_type
 from .exceptions import DjangoQLError
@@ -123,11 +124,42 @@ class DjangoQLSearchMixin(object):
                     )),
                     name='djangoql_syntax_help',
                 ),
+                url(
+                    r'^suggestions/(?P<model>[\w\.]+)/(?P<field>\w+)/(?P<page>\d+)$',
+                    self.admin_site.admin_view(self.suggestions),
+                    name='%s_%s_suggestions' % (
+                        self.model._meta.app_label,
+                        self.model._meta.model_name,
+                    ),
+                ),
             ]
         return custom_urls + super(DjangoQLSearchMixin, self).get_urls()
 
     def introspect(self, request):
         response = self.djangoql_schema(self.model).as_dict()
+        return HttpResponse(
+            content=json.dumps(response, indent=2),
+            content_type='application/json; charset=utf-8',
+        )
+
+    def suggestions(self, request, *args, **kwargs):
+        schema = self.djangoql_schema(self.model)
+        model_name = kwargs["model"]
+        field_name = kwargs["field"]
+        page = kwargs["page"]
+        model = schema.models.get(model_name)
+        if model is None:
+            return HttpResponseNotFound(
+                content="Model not found",
+                content_type='application/json; charset=utf-8',
+            )
+        field = model.get(field_name)
+        if field is None:
+            return HttpResponseNotFound(
+                content="No such field",
+                content_type='application/json; charset=utf-8',
+            )
+        response = field.get_paginated_options(page)
         return HttpResponse(
             content=json.dumps(response, indent=2),
             content_type='application/json; charset=utf-8',
