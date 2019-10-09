@@ -8,6 +8,7 @@ from django.db import models
 from django.db.models import FieldDoesNotExist, ManyToManyRel, ManyToOneRel
 from django.db.models.fields.related import ForeignObjectRel
 from django.utils.timezone import get_current_timezone
+from django.core.paginator import Paginator, EmptyPage
 
 from .ast import Comparison, Const, List, Logical, Name, Node
 from .compat import text_type
@@ -25,6 +26,7 @@ class DjangoQLField(object):
     type = 'unknown'
     value_types = []
     value_types_description = ''
+    suggest_options_page_size = 25
 
     def __init__(self, model=None, name=None, nullable=None,
                  suggest_options=None):
@@ -38,11 +40,20 @@ class DjangoQLField(object):
             self.suggest_options = suggest_options
 
     def as_dict(self):
-        return {
+        if self.suggest_options:
+            paginated_options = self.get_paginated_options()
+        else:
+            paginated_options = {
+                "has_next": False,
+                "next_page_number": None,
+                "options": []
+            }
+        result =  {
             'type': self.type,
             'nullable': self.nullable,
-            'options': list(self.get_options()) if self.suggest_options else [],
         }
+        result.update(paginated_options)
+        return result
 
     def _field_choices(self):
         if self.model:
@@ -51,6 +62,23 @@ class DjangoQLField(object):
             except FieldDoesNotExist:
                 pass
         return []
+
+    def get_paginated_options(self, page_number=1):
+        options = self.get_options()
+        p = Paginator(options, self.suggest_options_page_size)
+        try:
+            page = p.page(page_number)
+            return {
+                "has_more_options": page.has_next(),
+                "next_options_page_number": page.next_page_number() if page.has_next() else None,
+                "options": list(page.object_list)
+            }
+        except EmptyPage:
+            return {
+                "has_more_options": False,
+                "next_options_page_number": None,
+                "options": []
+            }
 
     def get_options(self):
         """
